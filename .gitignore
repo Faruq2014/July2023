@@ -40,3 +40,25 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Emacs/vim
+
+*~
+*.swp
+
+# VSCode
+
+.vscode
+.classpath
+.project
+.settings/
+
+# MacOS
+
+.DS_Store
+
+# CS56 specific: Secrets files
+
+localhost.json
+heroku.json
+
