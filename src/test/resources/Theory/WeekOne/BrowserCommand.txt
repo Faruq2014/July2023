@@ -1,0 +1,42 @@
+		Browser Commands in Selenium :
+		 
+		•	Selenium gives an order to open a URL, click on the button, type in textbox, turn off the browser, and perform actions such as closing the browser etc.
+		•	We can do a lot of command operations in the webdriver to automate the software application.
+		•	Selenium will have to make an instance of a webdriver to handle browser commands.
+		 
+		 
+		Get Command:
+		•	“get()”: The command () command is used to open a new browser window and it will get / receive the page you provided.
+		•	Passing string URLs as parameters to navigate to a web page.
+		•	It gives the string as a parameter and gives zero i.e. nothing. 
+		Get Title:
+		•	“getTitle()”: This command is used to get the title of the current page.
+		•	It does not allow any parameter and its return type string. 
+		Get Text:
+		•	“getText()”: This command is used to obtain the text of the element.
+		•	Able to store element text in string. 
+		Get Current URL Command:
+		•	“getCurrentUrl()”: This command is used to get the current URL of the browser.
+		•	This method currently returns a string containing URLs opened in the browser window, it does not allow any parameter and its return type string.
+		
+		
+		
+		Get Page Source Command:
+		•	“getPageSource()”: This command is used to get the source code of the page.
+		It does not allow any parameter and its return value is string.
+		 
+		Close Command:
+		•	“close()”: This method destroys the existing window which is controlled by WebDriver.
+		•	It does not allow any parameter and its return type is zero.
+		This will end the browser, if it’s just the currently open window.
+		 
+		Quit Command:
+		•	“quit()”: This method closes all windows opened by WebDriver.
+		•	It does not allow any parameter and its return type is zero.
+		It will automatically close all open windows and eliminate the browser.
+		 
+		Maximize a browser:
+		“maximize()”: The maximum () command is used to maximize the new open window.
+		Minimize a browser:
+		•	“setPosition()”: The setPosition command is able to minimize the browser command. 
+		
