@@ -1,0 +1,7 @@
+ how to open a browser?
+ how to open an application?
+ can you explain the line below?
+ WebDriver driver= new ChromeDriver();
+ what is close command?
+ what is quit command
+ what is the difference between close and quit command
