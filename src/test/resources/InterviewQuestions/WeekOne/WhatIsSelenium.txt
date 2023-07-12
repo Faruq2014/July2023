@@ -22,4 +22,5 @@
 		19.	Can selenium do cross platform testing?
 		20.	What is selenium webDriver used for?
 		21.	Do you need licenses to use selenium?
+		22. what is selenium WebDriver
 		
