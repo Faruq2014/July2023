@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-11T20:54:20 EDT" name="Default suite" finished-at="2023-07-11T20:54:27 EDT" duration-ms="6670">
+  <suite started-at="2023-07-13T20:02:56 EDT" name="Default suite" finished-at="2023-07-13T20:02:59 EDT" duration-ms="2706">
     <groups>
     </groups>
-    <test started-at="2023-07-11T20:54:20 EDT" name="Default test" finished-at="2023-07-11T20:54:27 EDT" duration-ms="6670">
-      <class name="webDriverCommand.QuitAndClose">
-        <test-method signature="openApplication()[pri:0, instance:webDriverCommand.QuitAndClose@15c43bd9]" started-at="2023-07-11T20:54:20 EDT" name="openApplication" finished-at="2023-07-11T20:54:23 EDT" duration-ms="3030" status="PASS">
+    <test started-at="2023-07-13T20:02:56 EDT" name="Default test" finished-at="2023-07-13T20:02:59 EDT" duration-ms="2706">
+      <class name="webDriverCommand.FindElement">
+        <test-method signature="findElement()[pri:0, instance:webDriverCommand.FindElement@41e36e46]" started-at="2023-07-13T20:02:56 EDT" name="findElement" finished-at="2023-07-13T20:02:59 EDT" duration-ms="2674" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="openApplicationWithEdgeDriver()[pri:0, instance:webDriverCommand.QuitAndClose@15c43bd9]" started-at="2023-07-11T20:54:23 EDT" name="openApplicationWithEdgeDriver" finished-at="2023-07-11T20:54:27 EDT" duration-ms="3610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplicationWithEdgeDriver -->
-      </class> <!-- webDriverCommand.QuitAndClose -->
+        </test-method> <!-- findElement -->
+      </class> <!-- webDriverCommand.FindElement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

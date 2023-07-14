@@ -5,3 +5,6 @@
  what is close command?
  what is quit command
  what is the difference between close and quit command
+ how do you maximize/minimize a window?
+ what is implicitlyWait?
+ //what is find element method
