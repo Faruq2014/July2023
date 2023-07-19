@@ -1,0 +1,11 @@
+what is SearchContext interface
+how many methods it has
+what is find element method
+what is find elements method
+what is the data type of find elements method
+what is List
+what is array
+what is loop
+how many loops do you know
+what is for, do and while loop
+what is enhance loop

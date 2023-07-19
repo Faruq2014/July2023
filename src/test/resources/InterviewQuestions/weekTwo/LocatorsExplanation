@@ -1,0 +1,33 @@
+<input type="text" class="inputtext _55r1 _6luy" name="email" id="email" data-testid="royal_email" placeholder="Email or phone number" autofocus="1" aria-label="Email or phone number"
+ Rahul=”hello”/>
+
+Tag name=input, a, select
+Attributes =8	values
+Id 	email
+name	email
+class	inputtext _55r1 _6luy
+	
+
+<a role="button" class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" href="#" ajaxify="/reg/spotlight/" id="u_0_0_Kt" data-testid="open-registration-form-button" rel="async">Create new account</a>
+
+Tag= a, link 
+What is compound values?
+Class==_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy
+=compound value 
+What is dynamic values?
+Id= u_0_0_Kt
+The change in the end or beginning for each sessions
+What is link text?
+Start with a tag
+Link text= Create new account    >Create new account<
+
+what is the formula of xpath
+//tag name[@attribute='value']
+example //input[@id='email']
+
+what is absolute xpath== start from begaining of the html
+/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/input[4]
+
+what is relative xpath== start from node
+what is node = starting point of an xpath
+how should i determine a good node== look for closest good locators specially id.
