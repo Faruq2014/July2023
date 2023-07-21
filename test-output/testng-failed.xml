@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="locators.DirectLoctors">
+      <class name="locators.XpathAnd_XpathOr">
         <methods>
+          <include name="xPathDouble"/>
           <include name="closeApplication"/>
-          <include name="linkText"/>
-          <include name="partialLinkText"/>
-          <include name="openApp"/>
+          <include name="xPathOr"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- locators.DirectLoctors -->
+      </class> <!-- locators.XpathAnd_XpathOr -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

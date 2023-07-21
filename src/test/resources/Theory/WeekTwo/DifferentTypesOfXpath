@@ -1,0 +1,64 @@
+		
+		*********regular xpath************
+		  //tagname[@attribute='value']
+		//input[@id='email']
+		//input[@class='inputtext']
+		//*[@name='email']
+		//*[@id='email']
+		
+		//*[@id='pass']
+		
+		*********double xpath************
+		//input[@class='inputtext'][@name='email'][@id='email']
+		
+		//input[@class='inputtext'][@name='pass']
+		
+		//input[@name='email'] | //input[@id='email']
+		
+		*********and condition xpath************
+		//input[@name='email'and @id='email']
+		
+		*********or condition xpath************
+		//input[@name='email'or @id='email']
+		
+		********* xpath start with/dynamic xpath ************
+		
+		Xpath=//label[starts-with(@id,'message')]
+		
+		********* xpath indexing ************
+		(//input[@class='inputtext'])[2]
+		
+		(//input[@class='inputtext'])[1]
+		//*[@id="login_form"]/table/tbody/tr[3]/td[2]/div/a
+		
+		*********contain funtion xpath************
+		//a[contains(@href,'policies')][text()='Cookies Policy']
+		//a[contains(@href,'facebook')][text()='Forgot account?']
+		
+		
+		//a[contains(text(),'Forgot account?')]
+		//*[contains(text(),'Connect with friends and the world around you')]
+		
+		
+		//a[contains(text(),'Forgot account?')]//following::*[contains(text(),'Sign Up')]
+		//a[contains(text(),'Forgot account?')]//following::input[@id='u_0_m']
+		
+		*********following xpath************
+		//*[@name='websubmit']//following::*[contains(text(),'Create a Page')]
+		
+		//*[@name='websubmit']/following::*[contains(text(),'Create a Page')]
+		
+		//*[@id='loginbutton']/following::a[1]
+		
+		
+		//a[contains(text(),'Forgot account?')]//following::input[@class='inputtext _58mg _5dba _2ph-']
+		inputtext _58mg _5dba _2ph-
+		
+		
+		//a[contains(text(),'Forgot account?')]//preceding::input[2]
+		
+		//*[@id='u_0_13']/ preceding::a[3]
+		
+		
+		
+		
