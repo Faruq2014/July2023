@@ -7,10 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPageFactory {
+public class LoginPageFactoryTwo {
 	WebDriver driver;
 
-	public LoginPageFactory(WebDriver driver) {
+	public LoginPageFactoryTwo(WebDriver driver) {
 		super();
 		this.driver = driver;
 		PageFactory.initElements(driver, this );
@@ -23,8 +23,7 @@ public class LoginPageFactory {
 	}
 	
 	@FindBy(how=How.ID, using="pass") private WebElement passWord;
-	public WebElement enterPassWord() {
+	public void enterPassWord() {
 		passWord.sendKeys("hello");
-		return passWord;
 	}
 }
