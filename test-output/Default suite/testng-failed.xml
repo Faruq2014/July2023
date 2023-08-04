@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="signUpTests.RegistrationTest">
+      <class name="dropdown.Date">
         <methods>
-          <include name="createNewAccount"/>
+          <include name="closeApp"/>
+          <include name="selectByValue"/>
+          <include name="selectDateByVisibleText"/>
           <include name="openApp"/>
         </methods>
-      </class> <!-- signUpTests.RegistrationTest -->
+      </class> <!-- dropdown.Date -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

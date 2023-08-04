@@ -27,6 +27,15 @@ public class RegistrationTest {
 		RegistrationPage rp = new RegistrationPage(driver);
 		rp.createNewAccount();
 		rp.firstNameField("Asma");
+		rp.lastNameField("Khan");
+		rp.emailField("ak@kmail.com");
+		rp.passwordField("ak1234");
+		rp.monthDropDownField(10);
+		rp.dayDropDownField(22);
+		rp.yearDropDownField("1982");
+		rp.radioButton("male");
+		//rp.signupButton();
+		
 	}
 
 }
