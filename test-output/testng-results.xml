@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-03T21:10:25 EDT" name="Default suite" finished-at="2023-08-03T21:10:28 EDT" duration-ms="3773">
+  <suite started-at="2023-08-08T19:17:22 EDT" name="Default suite" finished-at="2023-08-08T19:17:28 EDT" duration-ms="5685">
     <groups>
     </groups>
-    <test started-at="2023-08-03T21:10:25 EDT" name="Default test" finished-at="2023-08-03T21:10:28 EDT" duration-ms="3773">
+    <test started-at="2023-08-08T19:17:22 EDT" name="Default test" finished-at="2023-08-08T19:17:28 EDT" duration-ms="5685">
       <class name="signUpTests.RegistrationTest">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:signUpTests.RegistrationTest@7334aada]" started-at="2023-08-03T21:10:25 EDT" name="openApp" finished-at="2023-08-03T21:10:27 EDT" duration-ms="2419" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:signUpTests.RegistrationTest@7334aada]" started-at="2023-08-08T19:17:22 EDT" name="openApp" finished-at="2023-08-08T19:17:26 EDT" duration-ms="4374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="createNewAccount()[pri:0, instance:signUpTests.RegistrationTest@7334aada]" started-at="2023-08-03T21:10:27 EDT" name="createNewAccount" finished-at="2023-08-03T21:10:28 EDT" duration-ms="1328" status="PASS">
+        <test-method signature="createNewAccount()[pri:0, instance:signUpTests.RegistrationTest@7334aada]" started-at="2023-08-08T19:17:26 EDT" name="createNewAccount" finished-at="2023-08-08T19:17:28 EDT" duration-ms="1284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewAccount -->
