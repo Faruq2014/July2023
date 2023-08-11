@@ -2,7 +2,7 @@ package pfieLoginTests;
 
 import org.testng.annotations.Test;
 
-public class LoginTest extends BaseTest{
+public class LoginTest extends ParentTest{
 	
 	//WebDriver driver;
 
