@@ -11,19 +11,20 @@ import org.testng.annotations.BeforeTest;
 import pfieLoginPages.LoginPageFactory;
 import pfieLoginPages.LoginPageFactoryTwo;
 
-public class BaseTest {
+public class ParentTest {
 	WebDriver driver;
 	LoginPageFactory lpf;
 	LoginPageFactoryTwo lpf2;
 
 	@BeforeTest
 	public void openApp() {
-		driver = new ChromeDriver();
+		driver = new ChromeDriver();	
 		lpf= new LoginPageFactory(driver);
         lpf2= new LoginPageFactoryTwo(driver);
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(12));
+		
 
 	}
 	

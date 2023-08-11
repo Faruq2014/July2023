@@ -12,7 +12,7 @@ public class Parent {
 	}
 
 
-	public int car() {
+	protected int car() {
 		car = 1;
 		System.out.println("parent car "+car);
 		return car;
