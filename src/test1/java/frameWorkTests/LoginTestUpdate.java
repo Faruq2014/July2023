@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import frameWorkPages.LoginPage;
 
-public class LoginTest extends BaseTest{
+public class LoginTestUpdate extends BaseTest{
 	LoginPage lp;
 	
 	@Test(priority=1, groups={"smoke","regression"})

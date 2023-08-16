@@ -8,7 +8,7 @@ public class RegistrationTest extends BaseTest{
 	
 	RegistrationPage rp;
 	
-	@Test
+	@Test(priority=1, groups="smoke")
 	public void signUpTestForRahul() {
 		rp= new RegistrationPage(driver);
 		rp.createNewAccount();
@@ -22,7 +22,7 @@ public class RegistrationTest extends BaseTest{
 		rp.radioButton("male");
 	}
 	
-	@Test
+	@Test(priority=2, groups="regression")
 	public void signUpTestForIsrak() {
 		rp= new RegistrationPage(driver);
 		rp.createNewAccount();

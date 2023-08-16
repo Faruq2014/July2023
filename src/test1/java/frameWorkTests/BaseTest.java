@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 public class BaseTest {
 	WebDriver driver;
 	
-	@BeforeMethod
+	@BeforeMethod(groups={"smoke","regression"})
 	public WebDriver openApplication() {
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
@@ -17,7 +17,7 @@ public class BaseTest {
 	}
 	
 	
-   @AfterMethod
+   @AfterMethod(groups={"smoke","regression"})
 	public void closeApplication() {
 		if (driver !=null ) {
 			driver.quit();
