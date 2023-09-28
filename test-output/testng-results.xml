@@ -1,114 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-15T19:58:41 EDT" name="RegressionSuite" finished-at="2023-08-15T19:58:56 EDT" duration-ms="15294">
+  <suite started-at="2023-09-28T19:26:05 EDT" name="Default suite" finished-at="2023-09-28T19:26:07 EDT" duration-ms="2465">
     <groups>
-      <group name="regression">
-        <method signature="LoginTest.boundaryLoginTest()[pri:3, instance:frameWorkTests.LoginTest@1fa268de]" name="boundaryLoginTest" class="frameWorkTests.LoginTest"/>
-        <method signature="LoginTest.invalidLoginTest()[pri:2, instance:frameWorkTests.LoginTest@1fa268de]" name="invalidLoginTest" class="frameWorkTests.LoginTest"/>
-        <method signature="LoginTest.validLoginTest()[pri:1, instance:frameWorkTests.LoginTest@1fa268de]" name="validLoginTest" class="frameWorkTests.LoginTest"/>
-        <method signature="LoginTestUpdate.boundaryLoginTest()[pri:3, instance:frameWorkTests.LoginTestUpdate@a514af7]" name="boundaryLoginTest" class="frameWorkTests.LoginTestUpdate"/>
-        <method signature="LoginTestUpdate.invalidLoginTest()[pri:2, instance:frameWorkTests.LoginTestUpdate@a514af7]" name="invalidLoginTest" class="frameWorkTests.LoginTestUpdate"/>
-        <method signature="LoginTestUpdate.validLoginTest()[pri:1, instance:frameWorkTests.LoginTestUpdate@a514af7]" name="validLoginTest" class="frameWorkTests.LoginTestUpdate"/>
-        <method signature="RegistrationTest.signUpTestForIsrak()[pri:2, instance:frameWorkTests.RegistrationTest@188715b5]" name="signUpTestForIsrak" class="frameWorkTests.RegistrationTest"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="LoginTest.validLoginTest()[pri:1, instance:frameWorkTests.LoginTest@1fa268de]" name="validLoginTest" class="frameWorkTests.LoginTest"/>
-        <method signature="LoginTestUpdate.validLoginTest()[pri:1, instance:frameWorkTests.LoginTestUpdate@a514af7]" name="validLoginTest" class="frameWorkTests.LoginTestUpdate"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-08-15T19:58:41 EDT" name="RegressionTest" finished-at="2023-08-15T19:58:56 EDT" duration-ms="15294">
-      <class name="frameWorkTests.LoginTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:frameWorkTests.LoginTest@1fa268de]" started-at="2023-08-15T19:58:44 EDT" name="openApplication" finished-at="2023-08-15T19:58:46 EDT" duration-ms="1669" status="PASS">
+    <test started-at="2023-09-28T19:26:05 EDT" name="Default test" finished-at="2023-09-28T19:26:07 EDT" duration-ms="2465">
+      <class name="findElements.FindElementsMethod">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:findElements.FindElementsMethod@79924b]" started-at="2023-09-28T19:26:05 EDT" name="openApp" finished-at="2023-09-28T19:26:07 EDT" duration-ms="2289" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="validLoginTest()[pri:1, instance:frameWorkTests.LoginTest@1fa268de]" started-at="2023-08-15T19:58:46 EDT" name="validLoginTest" finished-at="2023-08-15T19:58:46 EDT" duration-ms="176" status="PASS">
+        </test-method> <!-- openApp -->
+        <test-method signature="findElementsWithEnhanceLoop()[pri:0, instance:findElements.FindElementsMethod@79924b]" started-at="2023-09-28T19:26:07 EDT" name="findElementsWithEnhanceLoop" finished-at="2023-09-28T19:26:07 EDT" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:frameWorkTests.LoginTest@1fa268de]" started-at="2023-08-15T19:58:46 EDT" name="closeApplication" finished-at="2023-08-15T19:58:46 EDT" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:frameWorkTests.LoginTest@1fa268de]" started-at="2023-08-15T19:58:46 EDT" name="openApplication" finished-at="2023-08-15T19:58:48 EDT" duration-ms="1681" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="invalidLoginTest()[pri:2, instance:frameWorkTests.LoginTest@1fa268de]" started-at="2023-08-15T19:58:48 EDT" name="invalidLoginTest" finished-at="2023-08-15T19:58:48 EDT" duration-ms="167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:frameWorkTests.LoginTest@1fa268de]" started-at="2023-08-15T19:58:48 EDT" name="closeApplication" finished-at="2023-08-15T19:58:48 EDT" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:frameWorkTests.LoginTest@1fa268de]" started-at="2023-08-15T19:58:48 EDT" name="openApplication" finished-at="2023-08-15T19:58:50 EDT" duration-ms="1622" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="boundaryLoginTest()[pri:3, instance:frameWorkTests.LoginTest@1fa268de]" started-at="2023-08-15T19:58:50 EDT" name="boundaryLoginTest" finished-at="2023-08-15T19:58:50 EDT" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- boundaryLoginTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:frameWorkTests.LoginTest@1fa268de]" started-at="2023-08-15T19:58:50 EDT" name="closeApplication" finished-at="2023-08-15T19:58:50 EDT" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- frameWorkTests.LoginTest -->
-      <class name="frameWorkTests.LoginTestUpdate">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:frameWorkTests.LoginTestUpdate@a514af7]" started-at="2023-08-15T19:58:50 EDT" name="openApplication" finished-at="2023-08-15T19:58:52 EDT" duration-ms="1711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="validLoginTest()[pri:1, instance:frameWorkTests.LoginTestUpdate@a514af7]" started-at="2023-08-15T19:58:52 EDT" name="validLoginTest" finished-at="2023-08-15T19:58:52 EDT" duration-ms="163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:frameWorkTests.LoginTestUpdate@a514af7]" started-at="2023-08-15T19:58:52 EDT" name="closeApplication" finished-at="2023-08-15T19:58:52 EDT" duration-ms="138" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:frameWorkTests.LoginTestUpdate@a514af7]" started-at="2023-08-15T19:58:52 EDT" name="openApplication" finished-at="2023-08-15T19:58:54 EDT" duration-ms="1571" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="invalidLoginTest()[pri:2, instance:frameWorkTests.LoginTestUpdate@a514af7]" started-at="2023-08-15T19:58:54 EDT" name="invalidLoginTest" finished-at="2023-08-15T19:58:54 EDT" duration-ms="177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:frameWorkTests.LoginTestUpdate@a514af7]" started-at="2023-08-15T19:58:54 EDT" name="closeApplication" finished-at="2023-08-15T19:58:54 EDT" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:frameWorkTests.LoginTestUpdate@a514af7]" started-at="2023-08-15T19:58:54 EDT" name="openApplication" finished-at="2023-08-15T19:58:56 EDT" duration-ms="1562" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="boundaryLoginTest()[pri:3, instance:frameWorkTests.LoginTestUpdate@a514af7]" started-at="2023-08-15T19:58:56 EDT" name="boundaryLoginTest" finished-at="2023-08-15T19:58:56 EDT" duration-ms="176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- boundaryLoginTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:frameWorkTests.LoginTestUpdate@a514af7]" started-at="2023-08-15T19:58:56 EDT" name="closeApplication" finished-at="2023-08-15T19:58:56 EDT" duration-ms="130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- frameWorkTests.LoginTestUpdate -->
-      <class name="frameWorkTests.RegistrationTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:frameWorkTests.RegistrationTest@188715b5]" started-at="2023-08-15T19:58:41 EDT" name="openApplication" finished-at="2023-08-15T19:58:43 EDT" duration-ms="2297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="signUpTestForIsrak()[pri:2, instance:frameWorkTests.RegistrationTest@188715b5]" started-at="2023-08-15T19:58:43 EDT" name="signUpTestForIsrak" finished-at="2023-08-15T19:58:44 EDT" duration-ms="1217" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUpTestForIsrak -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:frameWorkTests.RegistrationTest@188715b5]" started-at="2023-08-15T19:58:44 EDT" name="closeApplication" finished-at="2023-08-15T19:58:44 EDT" duration-ms="155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- frameWorkTests.RegistrationTest -->
-    </test> <!-- RegressionTest -->
-  </suite> <!-- RegressionSuite -->
+        </test-method> <!-- findElementsWithEnhanceLoop -->
+      </class> <!-- findElements.FindElementsMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

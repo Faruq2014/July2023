@@ -1,2 +1,7 @@
 what is dynamic xpath?
 what is the dynamic xpath formula?
+what is node
+node is the closest starting point to build an xpath
+how to find a good node
+all about your experience, try to find the closed best direct locator
+and traverse from to the target elements. 

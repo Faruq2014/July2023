@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="frameWorkTests.LoginTest">
+      <class name="findElements.FindElementsMethod">
         <methods>
-          <include name="invalidLoginTest"/>
-          <include name="openApplication"/>
-          <include name="validLoginTest"/>
+          <include name="findElementsWithEnhanceLoop"/>
+          <include name="openApp"/>
         </methods>
-      </class> <!-- frameWorkTests.LoginTest -->
+      </class> <!-- findElements.FindElementsMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
