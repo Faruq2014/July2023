@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="findElements.FindElementsMethod">
+      <class name="screenShot.TakeScreenShot">
         <methods>
-          <include name="findElementsWithEnhanceLoop"/>
+          <include name="screenShot"/>
           <include name="openApp"/>
         </methods>
-      </class> <!-- findElements.FindElementsMethod -->
+      </class> <!-- screenShot.TakeScreenShot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
